@@ -1,0 +1,89 @@
+body {
+	font-family: Arial, sans-serif;
+	background-color: #f4f4f4;
+	color: #333;
+	margin: 0;
+	padding: 0;
+}
+
+.header {
+	margin:10px;
+	text-align: center;
+	padding: 20px ;
+	animation-name: first;
+	animation-duration:10s;
+	animation-iteration-count: infinite;
+	animation-timing-function:ease-out;
+	animation-direction:alternate;
+}
+@keyframes first{
+	0%{color: white;background-color:black;}
+	100%{color:black;background-color:whitesmoke;}
+}
+.header2{
+	position:relative;
+	background-color: #004466;
+	color: white;
+	text-align:center;
+	padding: 20px ;
+	margin:10px;
+	transition-property: width height transform;
+	transition-duration: 5s;
+}
+.header2:hover{
+	           color: gold;  
+               background-color:black ;
+              
+}
+
+
+.product {
+	text-align: center;
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin: 30px;
+	background: white;
+	padding: 20px;
+	border-radius: 10px;
+	transition-property: width transform;
+	transition-duration:5s;
+	
+}
+.product:hover{
+	          text-align: center;
+	          color:white;
+	          background-color:black;
+}
+
+.product-description {
+	text-align: center;
+	font-size: 18px;
+	max-width: 700px;
+	text-align: center;
+	margin-top: 20px;
+}
+.button{
+	 text-align: center;
+       background-color:white ;
+	   color:black;
+	   border:2px solid green;
+	 
+}
+.button:hover {
+	    text-align: center;
+	    background-color:green;
+	    color:black;
+	    border:2px solid black;
+}
+.title{
+	  color: yellowgreen;
+	  background-color: black;
+	  transition-property: width transform;
+	  transition-duration: 2s;
+}
+.title:hover{
+	        color:red;
+	        background-color:blue;
+}
